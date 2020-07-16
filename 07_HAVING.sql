@@ -4,4 +4,4 @@ GROUP BY shouhin_bunrui
 Having COUNT(*) = 2;
 
 
--- FROM -> GROUP BY -> Having -> SELECT  --
+-- FROM -> WHERE -> GROUP BY -> Having -> SELECT  --
