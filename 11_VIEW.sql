@@ -1,14 +1,14 @@
 CREATE VIEW 
-	ShouhinSum (Shohin_bunrui, cnt_shouhin) 
+	shohinSum (Shohin_bunrui, cnt_shohin) 
 AS
 	SELECT 
-		shouhin_bunrui, COUNT(*)
+		shohin_bunrui, COUNT(*)
 	FROM 
-		Shouhin
+		shohin
 	GROUP BY 
-		shouhin_bunrui;
+		shohin_bunrui;
 
 SELECT 
-	shohin_bunrui, cnt_shouhin
+	shohin_bunrui, cnt_shohin
 FROM 
-	shouhinSUM;
+	shohinSUM;
