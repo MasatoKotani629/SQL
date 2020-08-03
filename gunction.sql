@@ -15,3 +15,18 @@ INSERT INTO SampleMath(m, n, p) VALUES (2.27, 1, NULL);
 INSERT INTO SampleMath(m, n, p) VALUES (5.555, 2, NULL);
 INSERT INTO SampleMath(m, n, p) VALUES (NULL, 1, NULL);
 INSERT INTO SampleMath(m, n, p) VALUES (8.76, NULL, NULL);
+
+-----絶対値--------
+SELECT m,
+  ABS(m) AS abs_col
+FROM SampleMath;
+
+-----剰余---------
+SELECT n, p,
+  MOD(n, p) AS mod_col
+FROM SampleMath;
+
+----四捨五入-------
+SELECT m, n,
+  ROUND(m, n) AS round_col
+FROM SampleMath;
