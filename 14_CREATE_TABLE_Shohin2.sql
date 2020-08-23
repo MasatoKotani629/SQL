@@ -8,3 +8,4 @@ shiire_tanka INTEGER ,
 torokubi DATE,
 PRIMARY KEY (shohin_id)
 );
+
