@@ -39,3 +39,13 @@ ON
 AND
 	P1.name <> P2.name
 ;
+
+SELECT
+	P1.name,
+	P1.price
+FROM
+	Products P1
+INNER JOIN
+	Products P2
+ON
+	P1.name <> P2.name
